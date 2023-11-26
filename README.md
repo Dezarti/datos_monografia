@@ -11,7 +11,23 @@ Rafael Reyes
 
 A petición del profesor, se modificó el código para que este pudiese correr desde el notebook en cualquier maquina sin tenerle que hacer modificaciones en las rutas de los archivos. A continuación se muestra la estructura del proyecto una vez se haya corrido este notebook, pues la carpeta de "procesadas" solo aparecera despues de ello. 
 
-Como se podrá notar, la carpeta "originales/" está vacía por problemas en la carga de archivos a github. El lector puede descargar la [Base de Datos Original](https://zenodo.org/records/7711412), copiar y finalmente pegar las 2098 imágenes de "US_Pictures/" en "us_images/originales/" para ejecutar el notebook Procesamiento_de_imagenes.ipynb con todo el dataset. 
+El lector puede descargar la [Base de Datos Original](https://zenodo.org/records/7711412)
+
+Esta es la estructura que debe encontrarse en el repositorio:
+
+```
+datos_monografia/
+├─ README.md
+├─ src/
+│  ├─ Procesamiento_de_imagenes.ipynb
+│  ├─ Analisis_de_datos.ipynb
+├─ data/
+│  ├─ structured_data/
+│     ├─ app_data.xlsx
+```
+
+A continuación se muestra la estructura del proyecto una vez se haya corrido este notebook, pues este mismo descargará las imágenes y las ubicará en carpetas a medida que las vaya filtrando y transformando. 
+
 
 ```
 datos_monografia/
